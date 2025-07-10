@@ -1,7 +1,7 @@
 local wezterm = require("wezterm")
 local mux = wezterm.mux
 local config = wezterm.config_builder()
-config.font = wezterm.font("3270 Nerd Font Mono")
+config.font = wezterm.font("MesloLGS NF")
 
 config.color_scheme = "cyberpunk"
 config.font_size = 16
@@ -31,7 +31,7 @@ config.hide_tab_bar_if_only_one_tab = false
 config.tab_bar_at_bottom = true
 config.use_fancy_tab_bar = false
 config.tab_and_split_indices_are_zero_based = true
-config.default_prog = { "powershell.exe" }
+--config.default_prog = { "powershell.exe" }
 config.window_background_opacity = 0.95
 config.max_fps = 120
 config.window_decorations = "RESIZE"
